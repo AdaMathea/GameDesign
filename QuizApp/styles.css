@@ -43,6 +43,7 @@ body.wrong {
 
 .text-container {
     padding: 10px;
+    text-align: center;
 }
 
 .answer-text {
