@@ -133,30 +133,48 @@ function finalPage() {
 }
 const questions = [                                                   /* Array of all questions */
     {
-        question: 'Hvor mange liter vann trenger man for å dyrke nok bomull til en t-skjorte?',
+        question: 'Hvor mange liter vann trenger man for å lage en t-skjorte av bomull??',
         answers: [
             { text: '600 liter', correct: false },
-            { text: '1700 liter', correct: false },
-            { text: '1100 liter', correct: false },
-            { text: '2700 liter', correct: true }
+            { text: '1400 liter', correct: true },
+            { text: '130 liter', correct: false },
+            { text: '2700 liter', correct: false }
         ]
     },
     {
-        question: 'Hvor mye bomull dyrkes i verden på ett år?',
+        question: 'Hvor mange plagg kjøper gjennomsnittlig en nordmann i året?',
         answers: [
-            { text: '999 000 kg', correct: false },
-            { text: '22.7 millioner tonn', correct: true },
-            { text: '3,5 tusen tonn', correct: false },
-            { text: '11 tonn', correct: false }
+            { text: '63', correct: true },
+            { text: '11', correct: false },
+            { text: '4', correct: false },
+            { text: '34', correct: false }
         ]
     },
     {
-        question: 'Hvilket av disse stoffene er laget av olje?',
+        question: 'Mikroplast er små partikler av plast som har størrelse mellom 0,001 og 5 millimeter. Hvor mange prosent av mikroplasten i havet kommer fra syntetiske klær?',
         answers: [
-            { text: 'Polyester', correct: true },
-            { text: 'Silke', correct: false },
-            { text: 'Lin', correct: false },
-            { text: 'Bomull', correct: false }
+            { text: '5%', correct: false },
+            { text: '50%', correct: false },
+            { text: '35%', correct: true },
+            { text: '15%', correct: false }
+        ]
+    },
+    {
+        question: 'Gjennomsnitlig hvor mange ganger blir et klesplagg brukt før det kastes?',
+        answers: [
+            { text: '7', correct: true },
+            { text: '15', correct: false },
+            { text: '32', correct: false },
+            { text: '51', correct: false }
+        ]
+    },
+    {
+        question: 'Hvilken av disse klærne er brukte?',
+        answers: [
+            { text: 'A', correct: false },
+            { text: 'B', correct: false },
+            { text: 'C', correct: true },
+            { text: 'D', correct: false }
         ]
     }
 ]
@@ -170,6 +188,12 @@ const answerTexts = [
     },
     {
         answerText: 'This is the third answer\nThat\'s mega cool',
+    },
+    {
+        answerText: 'This is the fourth answer\nThat\'s mega cool',
+    },
+    {
+        answerText: 'This is the last answer\nThat\'s mega cool',
     }
 ]
 
