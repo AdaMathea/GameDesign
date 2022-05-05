@@ -136,13 +136,13 @@ const questions = [                                                   /* Array o
         question: 'Hvor mange liter vann trenger man for å lage en t-skjorte av bomull??',
         answers: [
             { text: '600 liter', correct: false },
-            { text: '1400 liter', correct: true },
-            { text: '130 liter', correct: false },
-            { text: '2700 liter', correct: false }
+            { text: '1400 liter', correct: false },
+            { text: '3300 liter', correct: false },
+            { text: '2700 liter', correct: true }
         ]
     },
     {
-        question: 'Hvor mange plagg kjøper gjennomsnittlig en nordmann i året?',
+        question: 'Hvor mange plagg kjøper gjennomsnittlig en nordmann i året?---',
         answers: [
             { text: '63', correct: true },
             { text: '11', correct: false },
@@ -181,7 +181,7 @@ const questions = [                                                   /* Array o
 
 const answerTexts = [
     {
-        answerText: 'This is the answer Thats cool\n juhih0ihj089 u9h08h09b 9h8jiohnj uhij\n h9h98jij90 jiuj ijn jn re fe \n irj0iwr',
+        answerText: 'For å lage en enkelt t-skjorte trenger man 2700 liter vann\n Det er så mye vann en voksen trenger i løpet av tre år.',
     },
     {
         answerText: 'This is the second answer\nThat\'s super cool',
