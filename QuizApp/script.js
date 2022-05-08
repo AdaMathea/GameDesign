@@ -8,6 +8,7 @@ const answerTextContainerElement = document.getElementById('answerText-container
 const questionElement = document.getElementById('question')
 const answerButtonsElement = document.getElementById('answer-buttons')
 const answerTextsElement = document.getElementById('answerText')
+const answerImageElement = document.getElementById('answerImage')
 const finalTextElement = document.getElementById('final-text-container')
 const finalElement = document.getElementById('final-text')
 const scoreElement = document.getElementById('score-text')
@@ -61,6 +62,7 @@ function showQuestion(question) {
 
 function showAnswer(answerText) {
     answerTextsElement.innerText = answerText.answerText
+    answerImageElement.src = answerText.image
     infoButton.classList.add('hide')
 
     if (questions.length > currentQuestionIndex + 1) {        /* If more questions left show next button */
@@ -182,18 +184,23 @@ const questions = [                                                   /* Array o
 const answerTexts = [
     {
         answerText: 'For å lage en enkelt t-skjorte trenger man 2700 liter vann\n Det er så mye vann en voksen trenger i løpet av tre år.',
+        image: 'Culligan-Water-Fill-4mb.gif'
     },
     {
-        answerText: 'This is the second answer\nThat\'s super cool',
+        answerText: 'En gjennomsnittlig nordmann kjøper 63 plagg i året, tenk på noe..',
+        image: 'clothes_pile1.jpg'
     },
     {
-        answerText: 'This is the third answer\nThat\'s mega cool',
+        answerText: 'Hele 35% av all mikroplasten i havet kommer fra syntetiske klær. Mikroplast skader selv de minste organismene som lever i havet, dette kan..',
+        image: 'turtle.jpg'
     },
     {
-        answerText: 'This is the fourth answer\nThat\'s mega cool',
+        answerText: 'I gjennomsnitt brukes kun et klesplagg 7 ganger før det kastes, og utenom dette er det mange klesplagg som aldri blir brukt.',
+        image: 'tshirt.jpg'
     },
     {
-        answerText: 'This is the last answer\nThat\'s mega cool',
+        answerText: 'Det å kjøpe brukt kan spare miljøet enormt mye, og det finnes massevis av brukte klær som ser helt nye ut.',
+        image: 'thrift.jpg'
     }
 ]
 
