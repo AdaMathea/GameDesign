@@ -184,7 +184,7 @@ const questions = [                                                   /* Array o
 const answerTexts = [
     {
         answerText: 'For å lage en enkelt t-skjorte trenger man 2700 liter vann\n Det er så mye vann en voksen trenger i løpet av tre år.',
-        image: 'Culligan-Water-Fill-4mb.gif'
+        image: 'waterbottle.gif'
     },
     {
         answerText: 'En gjennomsnittlig nordmann kjøper 63 plagg i året, tenk på noe..',
