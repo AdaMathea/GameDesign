@@ -187,12 +187,12 @@ const answerTexts = [
         image: 'waterbottle.gif'
     },
     {
-        answerText: 'En gjennomsnittlig nordmann kjøper 63 plagg i året, tenk på noe..',
+        answerText: 'En gjennomsnittlig nordmann kjøper 63 plagg i året, det kan fylle en noe',
         image: 'clothes_pile1.jpg'
     },
     {
         answerText: 'Hele 35% av all mikroplasten i havet kommer fra syntetiske klær. Mikroplast skader selv de minste organismene som lever i havet, dette kan..',
-        image: 'turtle.jpg'
+        image: 'fish.gif'
     },
     {
         answerText: 'I gjennomsnitt brukes kun et klesplagg 7 ganger før det kastes, og utenom dette er det mange klesplagg som aldri blir brukt.',
