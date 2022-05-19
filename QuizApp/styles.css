@@ -35,6 +35,8 @@ body.wrong {
 .container {
     width: 800px;
     max-width: 80%;
+    margin-top: auto;
+    margin-bottom: auto;
     background-color: white;
     border-radius: 5px;
     padding: 10px;
@@ -47,8 +49,12 @@ body.wrong {
 }
 
 .answer-text {
-    font-size: larger;
+    font-size: clamp(0.5rem, 5vw, 1.5rem);
     padding: 10px 20px;
+}
+
+.answer-image {
+    padding: 20px 0px;
 }
 
 .score-text {
@@ -93,8 +99,8 @@ body.wrong {
     background-color: hsl(var(--hue), 100%, 80%);
 }
 
-.start-btn, .next-btn, .info-btn {
-    font-size: 1.5rem;
+.start-btn, .next-btn, .info-btn, .finish-btn {
+    font-size: clamp(0.5rem, 5vw, 1.5rem);
     font-weight: bold;
     padding: 10px 20px;
 }
