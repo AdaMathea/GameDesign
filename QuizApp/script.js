@@ -129,7 +129,7 @@ function finalPage() {
     resetQuestionState()
     questionContainerElement.classList.add('hide')
     finalTextElement.classList.remove('hide')
-    scoreElement.innerText = 'This is the end of the quiz, final score is ' + score
+    scoreElement.innerText = 'Du svarte riktig på ' + score + ' spørsmål.\n Uansett om dette var helt ny informasjon eller ikke, så er det fortsatt mye du kan gjøre.'
     finalElement.innerText = finalText
     finishButton.classList.add('hide')
 }
@@ -204,4 +204,4 @@ const answerTexts = [
     }
 ]
 
-const finalText = 'Om du vil vite mer om hva du kan gjøre'
+const finalText = 'Om du vil vite mer om dette eller om hva du kan gjøre,\n scan QR-koden ved utgangen!'
