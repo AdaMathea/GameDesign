@@ -4,7 +4,7 @@
     font-size: large;
 }
 
-/* --hue sets the backroundcolor of the body. The neutral is the general color, and wrong/correct is responscolors based on your answers. */
+/* --hue sets the backroundcolor of the body. The neutral is the general color, and wrong/correct is responscolors based on your answers. Note that this feature is not active at the moment since there is a background image instead*/
 :root {
     --hue-neutral: 190; 
     --hue-wrong: 0;

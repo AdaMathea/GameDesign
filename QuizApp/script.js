@@ -174,16 +174,14 @@ const questions = [                                                   /* Array o
         question: 'Hvilken av t-skjortene er kjøpt på en bruktbutikk?',
         answers: [
             { text: 'A', correct: false },
-            { text: 'B', correct: false },
-            { text: 'C', correct: true },
-            { text: 'D', correct: false }
+            { text: 'B', correct: true }
         ]
     }
 ]
 
 const answerTexts = [
     {
-        answerText: 'For å lage en enkelt t-skjorte trenger man 2700 liter vann.\n Det er like mye vann som en voksen drikker i løpet av tre år.',
+        answerText: 'For å lage en enkelt t-skjorte trenger man 2700 liter vann.\n\n Det er like mye vann som en voksen drikker i løpet av 3 år.',
         image: 'waterbottle.gif'
     },
     {
