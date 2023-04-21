@@ -129,13 +129,13 @@ function finalPage() {
     resetQuestionState()
     questionContainerElement.classList.add('hide')
     finalTextElement.classList.remove('hide')
-    scoreElement.innerText = 'This is the end of the quiz, final score is ' + score
+    scoreElement.innerText = 'Du svarte riktig på ' + score + ' spørsmål.\n Uansett om dette var helt ny informasjon eller ikke, så er det fortsatt mye du kan gjøre.'
     finalElement.innerText = finalText
     finishButton.classList.add('hide')
 }
 const questions = [                                                   /* Array of all questions */
     {
-        question: 'Hvor mange liter vann trenger man for å lage en t-skjorte av bomull??',
+        question: 'Hvor mange liter vann trenger man for å lage en t-skjorte av bomull?',
         answers: [
             { text: '600 liter', correct: false },
             { text: '1400 liter', correct: false },
@@ -144,9 +144,9 @@ const questions = [                                                   /* Array o
         ]
     },
     {
-        question: 'Hvor mange plagg kjøper gjennomsnittlig en nordmann i året?---',
+        question: 'Hvor mange plagg kjøper gjennomsnittlig en person i året?',
         answers: [
-            { text: '63', correct: true },
+            { text: '68', correct: true },
             { text: '11', correct: false },
             { text: '4', correct: false },
             { text: '34', correct: false }
@@ -162,7 +162,7 @@ const questions = [                                                   /* Array o
         ]
     },
     {
-        question: 'Gjennomsnitlig hvor mange ganger blir et klesplagg brukt før det kastes?',
+        question: 'Gjennomsnittlig hvor mange ganger blir et klesplagg brukt før det kastes?',
         answers: [
             { text: '7', correct: true },
             { text: '15', correct: false },
@@ -171,37 +171,35 @@ const questions = [                                                   /* Array o
         ]
     },
     {
-        question: 'Hvilken av disse klærne er brukte?',
+        question: 'Hvilken av t-skjortene er kjøpt på en bruktbutikk?',
         answers: [
             { text: 'A', correct: false },
-            { text: 'B', correct: false },
-            { text: 'C', correct: true },
-            { text: 'D', correct: false }
+            { text: 'B', correct: true }
         ]
     }
 ]
 
 const answerTexts = [
     {
-        answerText: 'For å lage en enkelt t-skjorte trenger man 2700 liter vann\n Det er så mye vann en voksen trenger i løpet av tre år.',
+        answerText: 'For å lage en enkelt t-skjorte trenger man 2700 liter vann.\n\n Det er like mye vann som en voksen drikker i løpet av 3 år.',
         image: 'waterbottle.gif'
     },
     {
-        answerText: 'En gjennomsnittlig nordmann kjøper 63 plagg i året, tenk på noe..',
-        image: 'clothes_pile1.jpg'
+        answerText: 'En person kjøper gjennomsnittlig 68 plagg i året.\n\n Hvis du husker tilbake til forrige skjerm,\n kan det kreve 183 600 liter vann å lage så mange klesplagg.\n\n Det er like mye vann som en voksen drikker i løpet av 204 år!\n',
+        image: 'clothesthrowaway.jpg'
     },
     {
-        answerText: 'Hele 35% av all mikroplasten i havet kommer fra syntetiske klær. Mikroplast skader selv de minste organismene som lever i havet, dette kan..',
-        image: 'turtle.jpg'
+        answerText: 'Hele 35% av all mikroplasten i havet kommer fra syntetiske klær.\n\n Mikroplast skader selv de minste organismene som lever i havet, deriblandt fisken vi spiser.\n\n Når fisk spiser mikroplast kan de bli alvorlig syke, og i verstefall dø.',
+        image: 'fish.gif'
     },
     {
-        answerText: 'I gjennomsnitt brukes kun et klesplagg 7 ganger før det kastes, og utenom dette er det mange klesplagg som aldri blir brukt.',
-        image: 'tshirt.jpg'
+        answerText: 'I gjennomsnitt brukes et klesplagg kun 7 ganger før det kastes.\n\n Det er også mange klesplagg som aldri blir brukt i det hele tatt.\n\n Å bruke klær du allerede har kan gjøre en enorm forskjell!\n',
+        image: 'clothesbin.gif'
     },
     {
-        answerText: 'Det å kjøpe brukt kan spare miljøet enormt mye, og det finnes massevis av brukte klær som ser helt nye ut.',
+        answerText: 'Det å kjøpe brukt kan spare miljøet enormt mye,\n og det finnes massevis av brukte klær som ser helt nye ut.\n\n Det er også lurt å høre med eldre familiemedlemmer om de har noen gamle klær fra når de var unge, det finnes mange muligheter!\n',
         image: 'thrift.jpg'
     }
 ]
 
-const finalText = 'This is more info'
+const finalText = 'Om du vil vite mer om dette eller om hva du kan gjøre,\n scan QR-koden ved utgangen!'
