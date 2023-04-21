@@ -91,7 +91,7 @@ while True:
     clock.tick(max(len(snake), 5))
 
 #End screen
-endscreen = font.render(f"YOU LOSE! final socre: {len(snake)-3}", True, (0,0,0))
+endscreen = font.render(f"YOU LOSE! final score: {len(snake)-3}", True, (0,0,0))
 
 screen.blit(endscreen, (((WIDTH - endscreen.get_width()) // 2), ((HEIGHT - endscreen.get_height()) // 2)))
 pg.display.flip()
